@@ -1,10 +1,33 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App";
-import "./styles/style.css";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Traveling from "./traveling/Traveling";
+// import Airbnb from "./airbnb/Airbnb";
+import "./global.css";
 
-ReactDOM.createRoot(document.getElementById("root")).render(
+const router = createBrowserRouter([
+    {
+        path: "/",
+        element: <>sad</>,
+    },
+    {
+        path: "/traveling",
+        element: <Traveling></Traveling>,
+    },
+
+    // {
+    //     path: "/airbnb",
+    //     element: <Airbnb></Airbnb>,
+    // },
+    {
+        path: "*",
+        element: <div>no such link</div>,
+    },
+]);
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
     <React.StrictMode>
-        <App></App>
+        <RouterProvider router={router} />
     </React.StrictMode>
 );

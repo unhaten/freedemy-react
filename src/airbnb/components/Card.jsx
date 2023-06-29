@@ -1,4 +1,5 @@
-import star from "/images/main/star.png";
+import star from "../assets/star.png";
+/* <img src={process.env.PUBLIC_URL + "/logo192.png"} alt="pic" /> */
 
 const Card = ({ item }) => {
     let badgeText;
@@ -12,7 +13,7 @@ const Card = ({ item }) => {
         <div className="card">
             {badgeText && <div className="card__badge">{badgeText}</div>}
             <img
-                src={`/images/main/${item.coverImg}`}
+                src={`/airbnb/${item.coverImg}`}
                 alt=""
                 className="card__image"
             />

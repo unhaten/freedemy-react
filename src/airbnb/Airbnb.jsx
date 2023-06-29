@@ -1,7 +1,8 @@
 import Header from "./components/Header";
 import Main from "./components/Main";
+import "./styles/style.css";
 
-const App = () => {
+const Airbnb = () => {
     return (
         <>
             <Header></Header>
@@ -10,4 +11,4 @@ const App = () => {
     );
 };
 
-export default App;
+export default Airbnb;

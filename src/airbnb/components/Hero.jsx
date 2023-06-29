@@ -1,4 +1,4 @@
-import staticImage from "/images/header/static-image.png";
+import staticImage from "../assets/static-image.png";
 
 const Hero = () => {
     return (
