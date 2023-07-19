@@ -1,0 +1,110 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background: linear-gradient(90deg, #672280 0%, #a626d3 100%);
+    color: #fff;
+}
+
+.nav__left {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.nav__right {
+    margin-right: 20px;
+    font-size: 12px;
+}
+
+.trollface {
+    width: 31px;
+}
+
+.header__text {
+    margin: 0;
+    font-size: 21px;
+}
+
+.main {
+    padding: 0 36px;
+}
+
+.form {
+    margin-top: 36px;
+}
+
+.input__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 17px;
+}
+
+.form__input {
+    padding: 10px;
+    width: 50%;
+    font-size: 12px;
+    color: #0d0d0d;
+    border: 1px solid #d5d4d8;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.form__button {
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    color: #fff;
+    background: linear-gradient(135deg, #711f8d 0%, #a818da 100%);
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.meme__container {
+    position: relative;
+    margin-top: 36px;
+    margin-bottom: 55px;
+}
+
+.meme__image {
+    max-width: 100%;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.meme__text {
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+        -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000,
+        -2px 0 0 #000, 2px 2px 5px #000;
+}
+
+.meme__text_top {
+    top: 0;
+}
+
+.meme__text_bottom {
+    bottom: 0;
+}
